@@ -1,7 +1,12 @@
-node_modules
-.next
-out
-.DS_Store
+/node_modules
+/.next
+/out
+/build
 *.log
+.DS_Store
+.env*
+!.env.example
 .vercel
-.env*.local
+*.tsbuildinfo
+next-env.d.ts
+public/outreach/frames

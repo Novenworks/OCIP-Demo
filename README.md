@@ -1,32 +1,30 @@
-# OCIP Demo — speculative Novenworks redesign
+# OCIP Demo
 
-This repository is a **speculative homepage redesign** of [theocip.com](https://theocip.com/) for Orange County Interlocking Paving Co. / The OCIP Co.
+Speculative Novenworks redesign of [theocip.com](https://theocip.com/) for **Orange County Interlocking Paving Co. (The OCIP Co.)**.
 
-- OCIP is **not** a Novenworks client.
-- Novenworks was **not** hired to build or replace the live site.
-- Business marks and photography remain property of their owners.
-- `/outreach` is an unlinked operator brief. It is not part of the customer nav.
-
-**Repo:** https://github.com/Novenworks/OCIP-Demo  
-**Live:** https://ocip-demo.vercel.app
+OCIP is **not** a Novenworks client. This repository is a demo. Business marks and photography remain property of their owners.
 
 ## Stack
-Next.js App Router, TypeScript, React, Tailwind CSS.
 
-## Local setup
+- Next.js App Router, TypeScript, Tailwind CSS v4
+- Local first-party images in `public/images/`
+
+## Setup
+
 ```bash
 npm install
 npm run dev
 ```
 
 Production build:
+
 ```bash
-npm run build && npm start
+npm run build
+npm start
 ```
 
-## Contact used (first-party)
-- Phone: (714) 627-5543
-- Email: tyler@ocip.biz
+Operator-only notes live at `/outreach` (not linked in nav/footer; `noindex`).
 
-## Docs
-See `AGENTS.md` for the document map.
+## License fact
+
+CSLB #1071389 was current and active on 2026-09-13. Re-check before any public claim.

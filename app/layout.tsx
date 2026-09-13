@@ -2,31 +2,31 @@ import type { Metadata } from "next";
 import { Fraunces, Outfit } from "next/font/google";
 import "./globals.css";
 
-const display = Fraunces({
+const outfit = Outfit({
   subsets: ["latin"],
-  variable: "--font-display",
+  variable: "--font-outfit",
+  display: "swap",
 });
 
-const sans = Outfit({
+const fraunces = Fraunces({
   subsets: ["latin"],
-  variable: "--font-sans",
+  variable: "--font-fraunces",
+  display: "swap",
 });
 
 export const metadata: Metadata = {
-  title: "The OCIP Co. | Orange County Pavers, Hardscape & Pool Decks",
+  title: "The OCIP Co. | Orange County Pavers & Hardscape",
   description:
-    "Orange County interlocking pavers, pool decks, driveways, and outdoor living. Speculative Novenworks redesign of theocip.com — not an official OCIP site.",
+    "Speculative redesign of theocip.com. The OCIP Co. builds interlocking paver driveways, patios, pool decks, and outdoor living spaces in Orange County, CA. Licensed contractor #1071389.",
   robots: { index: false, follow: false },
 };
 
 export default function RootLayout({
   children,
-}: {
-  children: React.ReactNode;
-}) {
+}: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="en" className={`${display.variable} ${sans.variable}`}>
-      <body className="font-sans antialiased bg-ink text-cream">{children}</body>
+    <html lang="en" className={`${outfit.variable} ${fraunces.variable}`}>
+      <body className="font-sans antialiased">{children}</body>
     </html>
   );
 }
