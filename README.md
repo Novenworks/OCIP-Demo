@@ -23,6 +23,8 @@ npm run build
 npm start
 ```
 
+Production: https://ocip-demo.vercel.app/
+
 Operator-only notes live at `/outreach` (not linked in nav/footer; `noindex`).
 
 ## License fact

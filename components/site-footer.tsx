@@ -14,7 +14,7 @@ export function SiteFooter() {
             className="h-9 w-auto"
           />
           <p className="mt-4 max-w-xs text-sm leading-relaxed text-cream/75">
-            {SITE.displayName}. Pavers, hardscape, and pool decking for Orange
+            {SITE.displayName} — pavers, hardscape, and pool decking for Orange
             County homes.
           </p>
         </div>
