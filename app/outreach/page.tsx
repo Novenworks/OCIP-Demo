@@ -129,37 +129,41 @@ export default function OutreachPage() {
 
       <section className="mt-10">
         <h2 className="font-display text-2xl">Subject lines</h2>
-        <ol className="mt-3 list-decimal space-y-2 pl-5 text-sm">
-          <li>Tyler, I made something for Orange County Interlocking Paving Co. (OCIP)</li>
-          <li>Had an idea for Orange County Interlocking Paving Co. (OCIP)</li>
-          <li>Tried something with the Orange County Interlocking Paving Co. (OCIP) site</li>
-        </ol>
-      </section>
+<ol className="mt-3 list-decimal space-y-2 pl-5"><li>Tyler, I made something for Orange County Interlocking Paving Co. (OCIP)</li><li>Had an idea for Orange County Interlocking Paving Co. (OCIP)</li><li>Tried something with the Orange County Interlocking Paving Co. (OCIP) site</li></ol>
+</section>
 
       <section className="mt-10 text-sm leading-relaxed">
         <h2 className="font-display text-2xl">Cold email</h2>
-        <p className="mt-3 whitespace-pre-wrap rounded-lg border border-line bg-cream p-4">
-          {`Tyler —
+<pre className="mt-3 whitespace-pre-wrap text-sm leading-relaxed">{\`Hi Tyler,
 
-I was looking at theocip.com and noticed the About/Services pages still have BusinessLounge placeholder copy (Lorem Ipsum, fake staff, even info@company.com) while the homepage already has recent backyard photos and named Yelp reviews.
+I came across Orange County Interlocking Paving Co. (OCIP) and ended up spending some time looking through the site.
 
-I put together a speculative redesign that leads with those real Orange County jobs and the existing estimate/call path. It is not a paid project and OCIP is not a Novenworks client — just a clearer version of the business that already exists.
+The real work is already the strongest part of the story.
 
-Demo: [deployed URL]
-Original: https://theocip.com/
+I had an idea for how I'd present it, so I built a version instead of sending you a bunch of suggestions.
 
-Happy to walk through it for 10 minutes if useful.
+https://ocip-demo.vercel.app
 
-— Novenworks`}
-        </p>
-      </section>
+Thought you might be curious to see it.
+
+If you like the direction, I can show you what I changed.
+
+Vincent
+Novenworks\`}</pre>
+</section>
 
       <section className="mt-10 text-sm leading-relaxed">
         <h2 className="font-display text-2xl">Follow-up</h2>
-        <p className="mt-3 whitespace-pre-wrap rounded-lg border border-line bg-cream p-4">
-          {`Tyler — short follow-up on the speculative theocip.com homepage. Still happy to send the link around internally if the template leftovers on About are on the to-do list. No pitch deck, just the demo.`}
-        </p>
-      </section>
+<pre className="mt-3 whitespace-pre-wrap text-sm leading-relaxed">{\`Hi Tyler,
+
+Just bumping this once in case it got buried. I put together that Orange County Interlocking Paving Co. (OCIP) concept and wanted to make sure you saw it.
+
+https://ocip-demo.vercel.app
+
+All good if it's not something you're looking at right now.
+
+Vincent\`}</pre>
+</section>
 
       <section className="mt-12">
         <h2 className="font-display text-2xl">Captures</h2>
