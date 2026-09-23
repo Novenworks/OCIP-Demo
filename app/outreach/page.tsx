@@ -130,10 +130,10 @@ export default function OutreachPage() {
       <section className="mt-10">
         <h2 className="font-display text-2xl">Subject lines</h2>
         <ol className="mt-3 list-decimal space-y-2 pl-5 text-sm">
-          <li>Noticed leftover template copy on theocip.com — built a speculative homepage</li>
-          <li>Your recent pool/patio photos are stronger than the current site shows</li>
-          <li>Speculative OCIP redesign: real work, no Lorem Ipsum</li>
-        </ol>
+            <li>I made something for Orange County Interlocking Paving Co. (OCIP)</li>
+            <li>Had an idea for Orange County Interlocking Paving Co. (OCIP)</li>
+            <li>Tried something with the Orange County Interlocking Paving Co. (OCIP) site</li>
+          </ol>
       </section>
 
       <section className="mt-10 text-sm leading-relaxed">
