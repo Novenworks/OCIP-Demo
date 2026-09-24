@@ -129,7 +129,11 @@ export default function OutreachPage() {
 
       <section className="mt-10">
         <h2 className="font-display text-2xl">Subject lines</h2>
-<ol className="mt-3 list-decimal space-y-2 pl-5"><li>Tyler, I made something for Orange County Interlocking Paving Co. (OCIP)</li><li>Had an idea for Orange County Interlocking Paving Co. (OCIP)</li><li>Tried something with the Orange County Interlocking Paving Co. (OCIP) site</li></ol>
+<ol className="mt-3 list-decimal space-y-2 pl-5">
+          <li>Tyler, I made something for OCIP</li>
+          <li>Had an idea for the OCIP site</li>
+          <li>Tried something with OCIP</li>
+        </ol>
 </section>
 
       <section className="mt-10 text-sm leading-relaxed">
