@@ -12,8 +12,7 @@ export function Difference() {
             Owner-led hardscape, judged by the yard you walk into.
           </h2>
           <p className="mt-4 max-w-xl text-muted leading-relaxed">
-            Tyler Watkins started The OCIP Co. in Orange County. The live site
-            still carries leftover template copy; the business itself is a
+            Tyler Watkins started The OCIP Co. in Orange County. We are a
             licensed contractor with recent backyard work and reviews that name
             the crew.
           </p>
@@ -29,13 +28,12 @@ export function Difference() {
             {" "}({SITE.licenseChecked}).
           </li>
           <li className="rounded-xl border border-line bg-cream p-4">
-            <strong>Stated promise.</strong> The first-party homepage currently
-            leads with “100% Customer Satisfaction Or You Don’t Pay.”
+            <strong>Owner-led.</strong> Tyler Watkins started The OCIP Co. and
+            leads the crew.
           </li>
           <li className="rounded-xl border border-line bg-cream p-4">
             <strong>Reviews that name the work.</strong> Patios, fire pits,
-            walkways, and communication — published on the site and attributed to
-            Yelp.
+            walkways, and communication, from our Yelp reviews.
           </li>
         </ul>
       </div>

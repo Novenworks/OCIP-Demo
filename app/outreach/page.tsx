@@ -29,6 +29,34 @@ const HOOKS = [
   "The live H1 is a satisfaction promise; the rest of the page doesn’t visually support it.",
 ];
 
+const CLOSE = "Want me to send over the full breakdown of what you get and what it costs?";
+
+const COLD_EMAIL = `Hi Tyler,
+
+I came across The OCIP Co. and spent some time on theocip.com. The About and Services pages still show template text and placeholder contact details, and they sit next to your real pool and patio photography and named reviews.
+
+I built a concept homepage that leads with that work, groups services around what a homeowner is deciding (driveway, patio, pool deck, outdoor living), and puts a free-estimate request and your phone number within one tap on a phone. It is a concept only, nothing on it is live for your customers:
+
+https://ocip-demo.vercel.app
+
+If you like the direction, the package is done for you: copy, build, mobile polish, connecting your existing estimate and contact path, technical setup and launch. I handle the work. You review and approve.
+
+${CLOSE}
+
+Vincent
+Novenworks`;
+
+const FOLLOW_UP = `Hi Tyler,
+
+Following up once on the OCIP concept in case it got buried: https://ocip-demo.vercel.app
+
+I handle the work. You review and approve.
+
+${CLOSE}
+
+Vincent
+Novenworks`;
+
 export default function OutreachPage() {
   return (
     <main className="mx-auto max-w-3xl px-5 py-12 text-ink">
@@ -52,13 +80,13 @@ export default function OutreachPage() {
           </a>
         </p>
         <p>
-          <strong>Demo:</strong> production URL after Vercel deploy (see README)
+          <strong>Demo:</strong> https://ocip-demo.vercel.app
         </p>
         <p>
           <strong>Phone:</strong> {SITE.phoneDisplay}
         </p>
         <p>
-          <strong>Email:</strong> {SITE.email}
+          <strong>Email:</strong> tyler@ocip.biz (published; see Channel)
         </p>
         <p>
           <strong>GitHub:</strong>{" "}
@@ -127,47 +155,34 @@ export default function OutreachPage() {
         </ul>
       </section>
 
+      <section className="mt-10 text-sm leading-relaxed">
+        <h2 className="font-display text-2xl">Channel (verified 2026-10-06)</h2>
+        <p className="mt-3">
+          tyler@ocip.biz, published for Tyler Watkins, Founder/Owner at
+          https://theocip.com/ and https://theocip.com/meet-our-team/. Phone
+          (714) 627-5543. contact@ocip.biz is also published at
+          https://theocip.com/contact-us/. Do not submit the website form.
+        </p>
+      </section>
+
       <section className="mt-10">
         <h2 className="font-display text-2xl">Subject lines</h2>
-<ol className="mt-3 list-decimal space-y-2 pl-5">
-          <li>Tyler, I made something for OCIP</li>
-          <li>Had an idea for the OCIP site</li>
-          <li>Tried something with OCIP</li>
+        <ol className="mt-3 list-decimal space-y-2 pl-5 text-sm">
+          <li>A website idea for The OCIP Co.</li>
+          <li>Tyler, a concept for the OCIP site</li>
+          <li>The OCIP Co. homepage concept for your review</li>
         </ol>
-</section>
+      </section>
 
       <section className="mt-10 text-sm leading-relaxed">
         <h2 className="font-display text-2xl">Cold email</h2>
-<pre className="mt-3 whitespace-pre-wrap text-sm leading-relaxed">{\`Hi Tyler,
-
-I came across Orange County Interlocking Paving Co. (OCIP) and ended up spending some time looking through the site.
-
-The real work is already the strongest part of the story.
-
-I had an idea for how I'd present it, so I built a version instead of sending you a bunch of suggestions.
-
-https://ocip-demo.vercel.app
-
-Thought you might be curious to see it.
-
-If you like the direction, I can show you what I changed.
-
-Vincent
-Novenworks\`}</pre>
-</section>
+        <pre className="mt-3 whitespace-pre-wrap text-sm leading-relaxed">{COLD_EMAIL}</pre>
+      </section>
 
       <section className="mt-10 text-sm leading-relaxed">
         <h2 className="font-display text-2xl">Follow-up</h2>
-<pre className="mt-3 whitespace-pre-wrap text-sm leading-relaxed">{\`Hi Tyler,
-
-Just bumping this once in case it got buried. I put together that Orange County Interlocking Paving Co. (OCIP) concept and wanted to make sure you saw it.
-
-https://ocip-demo.vercel.app
-
-All good if it's not something you're looking at right now.
-
-Vincent\`}</pre>
-</section>
+        <pre className="mt-3 whitespace-pre-wrap text-sm leading-relaxed">{FOLLOW_UP}</pre>
+      </section>
 
       <section className="mt-12">
         <h2 className="font-display text-2xl">Captures</h2>

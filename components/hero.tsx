@@ -6,7 +6,7 @@ export function Hero() {
     <section className="relative isolate min-h-[34rem] overflow-hidden bg-char md:min-h-[40rem]">
       <Image
         src="/images/hero-laguna-patio.jpg"
-        alt="Twilight pool, spa, and patio lighting from a recent OCIP project published on theocip.com"
+        alt="Twilight pool, spa, and patio lighting from a recent OCIP project"
         fill
         priority
         sizes="100vw"

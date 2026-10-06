@@ -9,13 +9,10 @@ export function Work() {
           Recent work
         </p>
         <h2 className="font-display mt-3 max-w-2xl text-3xl md:text-4xl">
-          The pictures already exist. They just needed a homepage that lets them
-          lead.
+          Recent work around Orange County.
         </h2>
         <p className="mt-4 max-w-2xl text-sm text-cream/70">
-          Photography below is from the first-party site and shows completed
-          Orange County properties. Manufacturer catalog shots and listing photos
-          that appear elsewhere on the live site are not used here as OCIP jobs.
+          Photos from completed Orange County properties.
         </p>
         <div className="mt-10 grid gap-3 md:grid-cols-4">
           {WORK.map((item) => (

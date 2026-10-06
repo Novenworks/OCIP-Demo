@@ -9,7 +9,7 @@ export function FinalCta() {
         <div className="relative min-h-72">
           <Image
             src="/images/work-snap-patio.jpg"
-            alt="Paver driveway and entry at dusk from an OCIP project published on theocip.com"
+            alt="Paver driveway and entry at dusk from an OCIP project"
             fill
             sizes="(max-width: 768px) 100vw, 50vw"
             className="object-cover"
@@ -21,7 +21,7 @@ export function FinalCta() {
           </p>
           <h2 className="font-display mt-3 text-3xl">Request an estimate</h2>
           <p className="mt-3 text-sm text-muted">
-            Same invitation as the live site: get a free estimate, or call{" "}
+            Request a free estimate, or call{" "}
             <a className="underline" href={`tel:${SITE.phoneTel}`}>
               {SITE.phoneDisplay}
             </a>

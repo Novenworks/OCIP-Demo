@@ -17,7 +17,7 @@ const fraunces = Fraunces({
 export const metadata: Metadata = {
   title: "The OCIP Co. | Orange County Pavers & Hardscape",
   description:
-    "Speculative redesign of theocip.com. The OCIP Co. builds interlocking paver driveways, patios, pool decks, and outdoor living spaces in Orange County, CA. Licensed contractor #1071389.",
+    "The OCIP Co. builds interlocking paver driveways, patios, pool decks, and outdoor living spaces in Orange County, CA. Licensed contractor #1071389.",
   robots: { index: false, follow: false },
 };
 
