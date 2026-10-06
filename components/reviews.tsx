@@ -5,12 +5,11 @@ export function Reviews() {
     <section id="reviews" className="bg-char py-16 text-cream md:py-20">
       <div className="mx-auto max-w-6xl px-5">
         <p className="text-[0.72rem] font-semibold tracking-[0.18em] text-sand uppercase">
-          From the live site
+          Customer reviews
         </p>
-        <h2 className="font-display mt-3 text-3xl md:text-4xl">Reviews already on theocip.com</h2>
+        <h2 className="font-display mt-3 text-3xl md:text-4xl">What our customers say</h2>
         <p className="mt-4 max-w-2xl text-sm text-cream/70">
-          Quoted from the first-party homepage and attributed to Yelp. No rating
-          totals invented here.
+          Excerpts from Yelp reviews of The OCIP Co.
         </p>
         <div className="mt-10 grid gap-5 md:grid-cols-2">
           {REVIEWS.map((review) => (

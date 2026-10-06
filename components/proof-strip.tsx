@@ -12,20 +12,20 @@ const ITEMS = [
     detail: "Serving Orange County homes.",
   },
   {
-    label: "Primary CTA",
+    label: "Estimate",
     value: "Free estimate",
-    detail: "Same path as the live first-party site.",
+    detail: "Request one below or give us a call.",
   },
   {
     label: "Call",
     value: SITE.phoneDisplay,
-    detail: "First-party number, verified.",
+    detail: "Talk to Tyler and the crew.",
   },
 ] as const;
 
 export function ProofStrip() {
   return (
-    <section className="border-b border-line bg-cream" aria-label="Verified facts">
+    <section className="border-b border-line bg-cream" aria-label="Key facts">
       <div className="mx-auto grid max-w-6xl gap-6 px-5 py-6 sm:grid-cols-2 lg:grid-cols-4">
         {ITEMS.map((item) => (
           <p key={item.label} className="text-sm">

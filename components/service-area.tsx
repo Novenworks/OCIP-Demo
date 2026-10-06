@@ -6,10 +6,8 @@ export function ServiceArea() {
       </p>
       <h2 className="font-display mt-3 text-3xl md:text-4xl">Orange County, on purpose.</h2>
       <p className="mt-4 max-w-2xl text-muted leading-relaxed">
-        The OCIP Co. is based in Orange, California. First-party contact copy
-        says “Located in Orange County.” Published Yelp excerpts on the live site
-        mention work discussed from Irvine, Newport Beach, Orange, and Glendora —
-        those are review locations, not a claimed city-by-city service list.
+        We are based in Orange, California, and work with homeowners across
+        Orange County. Call or request an estimate to talk about your property.
       </p>
     </section>
   );
